@@ -2,8 +2,7 @@
 <h2 align="left">Business Use case: </h2>
 <h3 align="left">We have data coming to azure blob storage in json format and we need to create pipeline which will be able to covert this file into csv format and store in output folder. we will mount our databricks to output container and need to do data cleaning operations there and convert into proper reporting formats and finally we will derive business metrics with the help of tableau.</h3>
 
-<h2 align="left">Steps:</h2>
-
+<h2 align="left">High Level Steps:</h2>
 <h3 align="left">
 
 **1. Create blob storage in azure**
@@ -14,6 +13,20 @@
 
 **4. Tableau for visualization for business metrics**
 </h3>
+
+<h2 align="left">Prerequisite</h2>
+<h3 align="left">
+
+**Azure account with active subscription**
+
+**Databricks community edition account**
+
+**Tableau public account**
+
+**Knowledge about storage account, dataframe, azure data factory, sql stc.**
+</h3>
+
+
 
 
 
